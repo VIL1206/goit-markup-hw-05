@@ -521,6 +521,8 @@ a {
     display: flex;
 }**/
 .email-subscribe {
+    display: flex;
+    gap: 24px;
 }
 .footer-input {
     min-width: 264px;
@@ -534,7 +536,6 @@ a {
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    margin-right: 24px;
 }
 .footer-input::placeholder {
     color: #FFFFFF;
