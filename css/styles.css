@@ -501,21 +501,26 @@ a {
     background-color: #31d0aa;
 }
 .footer-icon-sub {
-    display: block;
+    /**display: block;
     justify-content: center;
-    align-items: center;
+    align-items: center;**/
     margin-left: 60px;
 }
 .footer-form {
     display: flex;
-    gap: 24px;
+}
+.social-link-text-foot {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
 /**.modal-input-wrap-df {
     display: flex;
 }**/
 .email-subscribe {
-    display: flex;
-    gap: 24px;
 }
 .footer-input {
     min-width: 264px;
@@ -529,6 +534,7 @@ a {
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
+    margin-right: 24px;
 }
 .footer-input::placeholder {
     color: #FFFFFF;
