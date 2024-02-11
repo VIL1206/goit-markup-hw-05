@@ -707,7 +707,7 @@ a {
 .form-input-check:checked + .check-policy .span-check {
     background-color: #404BBF;
     border: none;
-    fill: #ffffff;
+    fill: #F4F4FD;;
 }
 .modal-form-checkk {
     margin-bottom: 24px;
