@@ -340,7 +340,76 @@
                     </li>
                 </ul>
                </div>
+               <div class="footer-icon-sub">
+                <p class="social-link-text">Subscribe</p>
+                    <form class="footer-form">
+                        <div class="modal-input-wrap-df">
+                            <input type="email" name="footer-email" class="footer-input" placeholder="E-mail">
+                            <button type="submit" class="footer-btn">Subscribe 
+                                <svg class="icons-button-footer" width="24" height="20">
+                                    <use  href="./images/symbol-defs.svg#icon-icon-send"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        
+                    </form>
+                </div>
+                
             </div>
         </footer>
+        <div class="backdrop is-open">
+            <div class="modal">
+                <button type="button" class="modal-cross">
+                    <svg class="icons-button" width="8" height="8">
+                        <use  href="./images/symbol-defs.svg#icon-Vector-4"></use>
+                    </svg>
+                </button>
+                <p class="modal-title">Leave your contacts and we will call you back</p>
+                <form class="modal-form">
+                    <div class="modal-form">
+                        <label for="user-name" class="name-form">Name</label>
+                        <div class="modal-input-wrap">
+                            <input type="text" name="user-name" class="modal-input" id="user-name">
+                            <svg class="icons-form" width="12" height="12">
+                                <use href="./images/symbol-defs.svg#icon-Vector"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="modal-form">
+                        <label for="user-tel" class="name-form">Phone</label>
+                        <div class="modal-input-wrap">
+                            <input type="text" name="user-tel" class="modal-input" id="user-tel">
+                            <svg class="icons-form" width="12" height="12">
+                                <use href="./images/symbol-defs.svg#icon-Vector-2"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="modal-form">
+                        <label for="user-email" class="name-form">Email</label>
+                        <div class="modal-input-wrap">
+                            <input type="text" name="user-email" class="modal-input" id="user-email">
+                            <svg class="icons-form" width="12" height="12">
+                                <use href="./images/symbol-defs.svg#icon-Vector-3"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="modal-form">
+                        <label for="user-text" class="name-form">Comment</label>
+                        <textarea name="text" id="user-text" rows="10" class="modal-textarea" placeholder="Text input"></textarea>
+                    </div>
+                    <div class="modal-form">
+                        <input type="checkbox" name="privacy-policy" id="privacy-policy" value="true" class="form-input-check visually-hidden">
+                        <label for="privacy-policy" class="check-policy"> 
+                            <span>
+                                <svg class="icon-check" width="10" height="8">
+                                    <use href="./images/symbol-defs.svg#icon-Vector-5"></use>
+                                </svg>
+                            </span> I accept the terms and conditions of the<a href="" class="privacy-policy-link">Privacy Policy</a></label>
+                    </div>
+                    <div class="button-end-check">
+                        <button type="submit" class="chekbox-button-foot">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
 </body>
-</html>
